@@ -2,15 +2,15 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Muli', sans-serif;
-  color: #01161A;
+  color: #374142;
   font-size: 100%;
+  height: 100%;
 }
 h1 {
   font-family: 'Oswald', sans-serif;
   margin: 16px 0;
 }
 p {
-  color: #374142;
   font-size: 1em;
   font-weight: 300;
 }

@@ -14,6 +14,5 @@ export default () => (
     </Lead>
     <div className="vertical-space-lg"></div>
     <ButtonLink to="contact.html">Work with us</ButtonLink>
-    <Link to="contact.html" className="button uppercase">Work with us</Link>
   </Section>
 )
