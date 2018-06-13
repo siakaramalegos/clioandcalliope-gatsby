@@ -9,10 +9,9 @@ export default () => (
     <Lead>
       Our expert team creates clean, beautiful, and easy-to-use web and mobile applications.
     </Lead>
-    <Lead>
+    <Lead style={{ marginBottom: '32px' }}>
       Let's create something together.
     </Lead>
-    <div className="vertical-space-lg"></div>
     <ButtonLink to="contact.html">Work with us</ButtonLink>
   </Section>
 )

@@ -7,8 +7,24 @@ body {
   height: 100%;
 }
 h1 {
+  color: #9EBCC0;
   font-family: 'Oswald', sans-serif;
+  font-size: 3.5em;
+  font-weight: 500;
+  line-height: 1.2;
   margin: 16px 0;
+  opacity: 0.7;
+  text-align: center;
+  text-transform: uppercase;
+}
+h2 {
+  color: #D09E4B;
+  font-size: 1.8em;
+  margin-bottom: 8px;
+}
+h3 {
+  color: #9EBCC0;
+  margin-top: 0;
 }
 p {
   font-size: 1em;
