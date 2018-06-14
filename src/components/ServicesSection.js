@@ -1,10 +1,10 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Section } from "./elements/Section";
-import webImage from '../images/web.jpg'
-import designImage from '../images/design.jpg'
-import consultingImage from '../images/consulting.jpg'
-import mobileImage from '../images/mobile.jpg'
+import webImage from '../static/web.jpg'
+import designImage from '../static/design.jpg'
+import consultingImage from '../static/consulting.jpg'
+import mobileImage from '../static/mobile.jpg'
 
 const Service = styled.div`
   align-items: center;

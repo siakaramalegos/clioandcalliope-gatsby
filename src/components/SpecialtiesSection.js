@@ -3,9 +3,9 @@ import { SectionGradient } from './elements/Section';
 import Lead from './elements/Lead';
 import theme from './theme';
 import styled from 'styled-components';
-import reactIcon from '../images/react.svg'
-import railsIcon from '../images/rails.svg'
-import nodeIcon from '../images/node.svg'
+import reactIcon from '../static/react.svg'
+import railsIcon from '../static/rails.svg'
+import nodeIcon from '../static/node.svg'
 
 const SpecialtiesList = styled.ul`
   width: 100%;
