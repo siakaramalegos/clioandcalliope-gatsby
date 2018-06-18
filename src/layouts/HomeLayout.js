@@ -1,9 +1,10 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
-import Header from '../components/header'
 import './index.css'
 import Footer from '../components/Footer';
+import Hero from '../components/Hero';
+import Main from '../components/elements/Main';
 
 // TODO: Add google analytics
 // < !--Global site tag(gtag.js) - Google Analytics-- >
@@ -17,9 +18,9 @@ import Footer from '../components/Footer';
 
 // TODO: add other meta tags like twitter - see competitors heads
 
-const Layout = ({ children, data }) => (
+const HomeLayout = ({ children, title }) => (
   <div>
-    <Helmet title={data.site.siteMetadata.title} >
+    <Helmet title={title} >
       <meta name="description" content="Do you need a custom website or mobile application? Clio + Calliope designs and builds clean, beautiful, and easy-to-use web and mobile apps. Let's create something together." />
 
       <meta property="og:image" content="http://clioandcalliope.com/static/share_image@3x.jpg" />
@@ -33,24 +34,16 @@ const Layout = ({ children, data }) => (
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" />
     </Helmet>
-    <Header siteTitle={data.site.siteMetadata.title} />
-    {children()}
+    <Hero />
+    <Main>
+      {children}
+    </Main>
     <Footer />
   </div>
 )
 
-Layout.propTypes = {
-  children: PropTypes.func,
+HomeLayout.propTypes = {
+  children: PropTypes.node,
 }
 
-export default Layout
-
-export const query = graphql`
-  query SiteTitleQuery {
-      site {
-    siteMetadata {
-      title
-    }
-    }
-  }
-`
+export default HomeLayout

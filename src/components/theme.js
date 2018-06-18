@@ -6,6 +6,7 @@ export default {
   colors: {
     white: '#FFFFFF',
     lightGrey: '#BFCED1',
+    lighterGrey: '#dde5e6',
     darkenedLightGrey: '#a1b7bc',
     grey: '#374142',
     black: '#01161A',
@@ -14,6 +15,7 @@ export default {
     orange: '#C83600',
     lightOrange: '#d23900', // lightened 2%
     mustard: '#D09E4B',
+    lightMustard: '#dbb473', // lightened 105
     peacock: '#00A6BF', // 0, 166, 191
     aqua: '#0AA8BE'
   }

@@ -1,17 +1,17 @@
 import React from 'react'
 import LeadSection from '../components/LeadSection';
-import Main from '../components/elements/Main';
 import ServicesSection from '../components/ServicesSection';
 import SpecialtiesSection from '../components/SpecialtiesSection';
 import ContactSection from '../components/ContactSection';
+import HomeLayout from '../layouts/HomeLayout';
 
 const IndexPage = () => (
-  <Main>
+  <HomeLayout title="Clio + Calliope App Development">
     <LeadSection />
     <ServicesSection />
     <SpecialtiesSection />
     <ContactSection />
-  </Main>
+  </HomeLayout>
 )
 
 export default IndexPage
